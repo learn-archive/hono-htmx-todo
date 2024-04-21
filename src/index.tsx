@@ -29,6 +29,6 @@ const renderer = jsxRenderer(({ children }) => {
 app.get('*', renderer);
 
 // Pages
-app.route('/home', home);
+app.route('/', home);
 
 export default app;
